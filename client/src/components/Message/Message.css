@@ -3,8 +3,9 @@
     border-radius: 20px;
     padding: 5px 20px;
     color: white;
-    display: inline-block;
+    display: flex;
     max-width: 80%;
+    align-items: center;
   }
   
   .messageText {
@@ -65,3 +66,4 @@
   .backgroundLight {
     background: #F3F3F3;
   }
+  

@@ -12,7 +12,6 @@ const Message = ({ message: { text, user }, name }) => {
     if (user === trimmedName) {
         isSentByCurrentUser = true;
     }
-
     return (
         isSentByCurrentUser
             ? (
